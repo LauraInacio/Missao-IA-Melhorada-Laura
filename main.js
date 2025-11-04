@@ -11,11 +11,15 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Prefiro pensar de forma criativa, buscando novas soluções e inovações.",
-                afirmacao: "Sua inclinação para a criatividade é um excelente sinal para áreas como design, publicidade ou desenvolvimento de produtos.",
+                afirmacao:[
+                     "Sua inclinação para a criatividade é um excelente sinal para áreas como design, publicidade ou desenvolvimento de produtos.",
+                     "Você prospera em cenários onde a imaginação é o principal motor, como na produção de conteúdo digital, artes visuais ou marketing criativo." ]
             },
             {
                 texto: "Gosto de analisar dados, planejar e tomar decisões baseadas em lógica e estrutura.",
-                afirmacao: "Você se destaca em ambientes estruturados e analíticos, sendo mais indicado para áreas como engenharia, finanças ou TI.",
+                afirmacao: [
+                    "Você se destaca em ambientes estruturados e analíticos, sendo mais indicado para áreas como engenharia, finanças ou TI.",
+                "Sua mente lógica é perfeita para otimizar processos, prever tendências e resolver problemas complexos em setores como ciência de dados ou análise financeira."]
             }
         ]
     },
@@ -24,11 +28,15 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Sim, me sinto à vontade para interagir, ajudar e até persuadir outras pessoas.",
-                afirmacao: "Você tem facilidade em se comunicar e criar conexões, sendo ideal para vendas, psicologia, recursos humanos ou atendimento ao cliente.",
+                afirmacao: [
+                    "Você tem facilidade em se comunicar e criar conexões, sendo ideal para vendas, psicologia, recursos humanos ou atendimento ao cliente.",
+                "Você se destaca em tarefas que exigem profundidade e precisão, como análise de sistemas, redação acadêmica ou desenvolvimento de algoritmos."]
             },
             {
                 texto: "Prefiro atividades que envolvem mais foco individual e menos interação direta.",
-                afirmacao: "Sua habilidade em se concentrar no trabalho individual faz de você uma pessoa qualificada para áreas como programação, escrita técnica ou pesquisa científica.",
+                afirmacao: [
+                    "Sua habilidade em se concentrar no trabalho individual faz de você uma pessoa qualificada para áreas como programação, escrita técnica ou pesquisa científica.",
+                "Você se destaca em tarefas que exigem profundidade e precisão, como análise de sistemas, redação acadêmica ou desenvolvimento de algoritmos."]
             }
         ]
     },
@@ -37,11 +45,14 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Consegue me manter calmo e encontrar soluções rápidas quando há prazos apertados.",
-                afirmacao: "Sua capacidade de tomar decisões rápidas sob pressão é essencial em áreas como jornalismo, consultoria empresarial ou gestão de crises.",
+                afirmacao: ["Sua capacidade de tomar decisões rápidas sob pressão é essencial em áreas como jornalismo, consultoria empresarial ou gestão de crises.",
+                "Você brilha em ambientes de alta adrenalina, como trading financeiro, resposta a emergências ou produção de eventos ao vivo."]
             },
             {
                 texto: "Prefiro um ritmo de trabalho mais controlado, com tempo suficiente para planejamento e execução.",
-                afirmacao: "Você é mais eficaz em ambientes planejados e organizados, se destacando em gestão de projetos, pesquisa acadêmica ou contabilidade.",
+                afirmacao: [
+                    "Você é mais eficaz em ambientes planejados e organizados, se destacando em gestão de projetos, pesquisa acadêmica ou contabilidade.",
+                "Sua paciência e meticulosidade garantem excelência em auditoria, planejamento urbano ou desenvolvimento de políticas públicas."]
             }
         ]
     },
