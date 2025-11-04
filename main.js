@@ -61,11 +61,15 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Sim, tenho facilidade em absorver novos conhecimentos e me adaptar a mudanças.",
-                afirmacao: "Seu aprendizado rápido é um trunfo para carreiras dinâmicas e em constante evolução, como tecnologia, startups ou consultoria estratégica.",
+                afirmacao: [
+                    "Seu aprendizado rápido é um trunfo para carreiras dinâmicas e em constante evolução, como tecnologia, startups ou consultoria estratégica.",
+                "Você se adapta facilmente a ferramentas emergentes, como IA, blockchain ou realidade aumentada, em setores inovadores."]
             },
             {
                 texto: "Prefiro me aprofundar em áreas que já conheço e melhorar constantemente minhas habilidades.",
-                afirmacao: " Você é excelente em se especializar e se tornar um expert em um campo específico, sendo ideal para engenharia, medicina ou direito.",
+                afirmacao: [
+                    "Você é excelente em se especializar e se tornar um expert em um campo específico, sendo ideal para engenharia, medicina ou direito.",
+                "Sua dedicação à maestria o torna referência em nichos como cirurgia especializada, advocacia tributária ou engenharia aeroespacial."]
             }
         ]
     },
@@ -74,11 +78,14 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Prefiro seguir processos e protocolos bem definidos, com metas claras e objetivos organizados.",
-                afirmacao: "Sua preferência por ambientes organizados sugere que você é ideal para áreas administrativas, finanças ou logística.",
+                afirmacao: ["Sua preferência por ambientes organizados sugere que você é ideal para áreas administrativas, finanças ou logística.",
+                "Você garante eficiência e conformidade em operações corporativas, cadeias de suprimentos ou controle de qualidade."]
             },
             {
                 texto: " Prefiro um ambiente de trabalho mais flexível, onde eu possa explorar novas abordagens e criar soluções fora da caixa.",
-                afirmacao: "Você se adapta bem a ambientes inovadores e pode se destacar em áreas criativas, design ou empreendedorismo.",
+                afirmacao: [
+                    "Você se adapta bem a ambientes inovadores e pode se destacar em áreas criativas, design ou empreendedorismo.",
+                "Sua flexibilidade impulsiona inovações em agências de publicidade, desenvolvimento de jogos ou ventures de impacto social."]
             }
         ]
     }, 
@@ -87,11 +94,15 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Me vejo liderando, motivando a equipe e sendo responsável por guiar o grupo em direção aos objetivos.",
-                afirmacao: "Seu perfil de liderança é perfeito para gestão de equipes, empresas ou consultoria. Você tem o potencial para coordenar projetos e liderar mudanças.",
+                afirmacao:[
+                     "Seu perfil de liderança é perfeito para gestão de equipes, empresas ou consultoria. Você tem o potencial para coordenar projetos e liderar mudanças.",
+                "Você inspira times em contextos como direção executiva, coaching empresarial ou liderança de ONGs."]
             },
             {
                 texto: "Prefiro seguir orientações de um líder, contribuindo com meu trabalho para o sucesso coletivo.",
-                afirmacao: "Sua capacidade de ser um ótimo colaborador é ideal para funções técnicas ou especializadas, como engenharia, pesquisa ou TI.",
+                afirmacao: [
+                    "Sua capacidade de ser um ótimo colaborador é ideal para funções técnicas ou especializadas, como engenharia, pesquisa ou TI.",
+                "Você é a espinha dorsal de projetos complexos, atuando como especialista em cibersegurança, biologia molecular ou arquitetura de software."]
             }
         ]
     },
