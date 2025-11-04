@@ -101,7 +101,7 @@ const perguntas = [
             {
                 texto: "Prefiro seguir orientações de um líder, contribuindo com meu trabalho para o sucesso coletivo.",
                 afirmacao: [
-                    "Sua capacidade de ser um ótimo colaborador é ideal para funções técnicas ou especializadas, como engenharia, pesquisa ou TI.",
+                "Sua capacidade de ser um ótimo colaborador é ideal para funções técnicas ou especializadas, como engenharia, pesquisa ou TI.",
                 "Você é a espinha dorsal de projetos complexos, atuando como especialista em cibersegurança, biologia molecular ou arquitetura de software."]
             }
         ]
