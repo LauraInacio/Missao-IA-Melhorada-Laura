@@ -45,12 +45,14 @@ function mostraResultado(){
     caixaPerguntas.textContent = "Se fosse possível ...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = " ";
+    caixaResultado.classList.add("mostrar");
     botaoJogarNovamente.addEventListener("click, jogaNovamente");
 }
 
 function jogaNovamente(){
     atual = 0;
     historiaFinal = " ";
+    caixaResultado.classList.remove("mostrar");
     mostraPergunta();
 }
 
