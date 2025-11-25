@@ -35,6 +35,10 @@ h1 {
     color: var(--cor-destaque);
 }
 
+h1, .caixa-perguntas, .caixa-resultado{
+    font-family: 'Chakra Petch', sans-serif;
+}
+
 button {
     background-color: var(--cor-secundaria);
     color: var(--cor-texto);
@@ -58,4 +62,18 @@ button:hover {
     font-weight: 700;
     color: var(--cor-destaque);
     line-height: 1.5em;
+}
+
+.caixa-alternativas{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.caixa-resultado{
+    display: none;
+}
+
+.caixa-resultado.mostrar{
+    display: block;
 }
